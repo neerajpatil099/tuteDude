@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section{
+    /* margin: 50px; */
+    text-decoration: none;
+    padding: 2em;
+    border: 3px solid  #800080;;
+    border-radius: 20px;
+    font-size: 35px ;
+}
+
+.home a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: #800080;
+
+}
+
+.section:hover{
+    background-color: #800080;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
